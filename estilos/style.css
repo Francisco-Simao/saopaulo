@@ -63,5 +63,26 @@ li {
 
 #titleHeader {
     font-family: var(--fonte-estilosa);
-    font-size: larger ;
+    text-align: center;
+    font-size: 2em ;
+    background: url(../img/Estádio_do_Morumbi.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(245, 210, 16);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+#titleHeader p {
+    font-size: 2em;
+}
+
+#criação {
+    background-color: #D71920;
+    color: white;
+    font-family: var(--fonte-estilo-spfc);
 }
